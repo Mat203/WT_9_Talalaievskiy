@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <div id="formanddata">
+        <div id="formData"></div>
+        <form id="myForm" novalidate>
+            <label for="text">Text*:</label><br>
+            <input type="text" id="text" name="text" required><span id="textError" class="error"></span><br>
+            <label for="numeral">Numeral:</label><br>
+            <input type="number" id="numeral" name="numeral" required><br>
+            <label for="range">Range:</label><br>
+            <input type="range" id="range" name="range" required><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+            <label for="radio">Radio:</label><br>
+            <input type="radio" id="radio1" name="radio" value="option1">
+            <label for="radio1">Option 1</label><br>
+            <input type="radio" id="radio2" name="radio" value="option2">
+            <label for="radio2">Option 2</label><br>
+            <label for="email">Email*:</label><br>
+            <input type="email" id="email" name="email" required><span id="emailError" class="error"></span><br>
+            <label for="pwd">Password*:</label><br>
+            <input type="password" id="pwd" name="pwd"><span id="pwdError">Please, use at least 8 characters, one
+                capital letter and one special symbol</span><br>
+            <label for="pwd-repeat">Repeat Password*:</label><br>
+            <input type="password" id="pwd-repeat" name="pwd-repeat"><span id="pwdRepeatError"
+                class="error"></span><br><br>
+            <input type="submit" value="Submit"><span id="submitMessage" class="success">
+        </form>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

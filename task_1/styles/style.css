@@ -1,0 +1,17 @@
+.invalid {
+    border: 2px solid red;
+    background-color: #ffdddd;
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+#formanddata {
+    display: flex;
+}
